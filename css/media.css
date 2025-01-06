@@ -1,0 +1,198 @@
+@media screen and (max-width: 1150px) {
+    .schedule-container {
+        margin: 0 0 0 auto;
+        padding-left: 10px;
+    }
+
+    .contact,  #map {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header-top, .logo-container  {
+        margin-bottom: 15px;
+    }
+
+    .contact-phone {
+        margin-left: 0;
+    }
+
+    .header-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-form {
+        margin-left: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .media-link {
+        margin-left: 0;
+    }
+
+    .contact-map-section, .footer-top {
+        flex-direction: column;
+    }
+
+    .contact,  #map {
+        width: 100%; 
+    }
+
+    #map {
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .contact-phone {
+        margin-bottom: 20px;
+    }
+
+    .phone-number {
+        font-size: 18px;
+    }
+
+    .phone-number:first-child {
+        margin-right: 25px;
+    }
+
+    .phone-number:first-child::after {
+        display: none;
+    }
+    
+    .nav-wrapper {
+        background: none;
+    }
+    
+    .main-nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+        background: #181818;
+        border-radius: 10px;
+        padding: 30px 15px 30px 34px;
+    }
+    
+    .main-nav-item:last-child {
+        margin: 0;
+    }
+    
+    .main-nav-link {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .pass-info-inner, .pass-form {
+        max-width: 100%;
+    }
+
+    .pass-form-row {
+        margin-bottom: 0;
+    }
+
+    .pass-form-field {
+        margin-bottom: 20px;
+    }
+
+    .pass-form-field.md, .pass-form-field.sm, .pass-form-btn {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .driving-map,  .driving-map img {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 41px 0;
+    }
+
+    .footer-top {
+        gap: 20px;
+        margin-bottom: 41px;
+    }
+
+    .disclaimer-text {
+        margin: 0;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .copyright-text, .privacy-policy-link, .footer-bottom > a:nth-child(2) {
+        margin: 0 0 20px 0;
+    }
+
+    .copyright-text {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        padding-top: 13px;
+        padding-bottom: 15px;
+    }
+
+    .header-top {
+        margin-bottom: 21px;
+    }
+
+    .schedule-container {
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .schedule, .email {
+        display: inline-block;
+    }
+
+    .schedule {
+        margin-right: 30px;
+    }
+
+    .search-form {
+        margin-bottom: 32px;
+    }
+    
+    .nav-wrapper {
+        margin-bottom: 46px;
+    }
+
+    .contact-headline {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .contact-map-section {
+        gap: 31px;
+    }
+
+    .pass-info-headline {
+        font-weight: 400;
+    }
+
+    .car-navigation-info {
+        gap: 20px;
+        margin-bottom: 117px;
+    }
+
+    #map {
+        height: 206px;
+    }
+   
+}
+
+@media screen and (max-width: 350px) {
+    .phone-number:first-child {
+        margin-right: 8px;
+    }
+
+    .contact-tel {
+        font-size: 20px;
+    }
+}

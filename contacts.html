@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+    <header class="header container">
+        <div class="header-top">
+            <div class="logo-container">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="Мир ковролина">
+                </a>
+                <p class="slogan">Продаем ковровые покрытия оптом и в розницу, со склада в Москве. Доставка по всей России и СНГ</p>
+            </div>
+            <div class="contact-phone">
+                <a href="tel:+79958883563" class="phone-number">+7 995 888-35-63</a>
+                <a href="tel:84959027108" class="phone-number">8 495 902-71-08</a>
+            </div>
+            <div class="schedule-container">
+                <span class="schedule ic-clock">Пн-Пт, 9:00 до 18:00</span>
+                <a href="mailto:zakaz@mir-kovrolina.ru" class="email ic-message">zakaz@mir-kovrolina.ru</a>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="search-form">
+                <form>
+                    <div class="search-form-row">
+                        <input class="field-search" type="text" name="search" placeholder="Введите название товара">
+                        <button type="submit" class="search-btn"></button>
+                    </div>
+                </form>
+            </div>
+            <div class="media-link">
+                <a href="#" class="media ic-wa">whatsapp</a>
+                <a href="#" class="media ic-telegram">telegram</a>
+                <a href="#" class="media ic-point">point</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav-wrapper">
+        <nav class="main-nav container">
+            <ul class="main-nav-list">
+                <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">Каталог</a>
+                </li>
+                <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">Галерея работ</a>
+                </li>
+                <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">О компании</a>
+                </li>
+                <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">Контакты</a>
+                </li>
+                <li class="main-nav-item">
+                    <a href="#" class="main-nav-link">Корзина</a>
+                </li>  
+            </ul>
+        </nav>
+    </div>
+
+    <section class="contact-container container">
+        <ul class="breadcrumbs">
+            <li>
+                <a href="#">Главная</a>
+            </li>
+            <li>
+                <a href="#" class="active">Контакты</a>
+            </li>
+        </ul>
+
+       <h1 class="contact-headline">Контакты</h1>
+       <div class="contact-map-section">
+            <div class="contact">
+                <a href="tel:+79958883563" class="contact-tel ic-mobile">+7 995 888-35-63</a>
+                <a href="tel:84959027108" class="contact-tel ic-call">8 495 902-71-08</a>
+                <a href="mailto:zakaz@mir-kovrolina.ru" class="contact-email ic-dark-email">zakaz@mir-kovrolina.ru</a>
+                <span class="contact-schedule ic-dark-clock">Пн-Пт, 9:00 до 18:00</span>
+                <div class="media-link">
+                    <a href="#" class="media ic-wa">whatsapp</a>
+                    <a href="#" class="media ic-telegram">telegram</a>
+                    <a href="#" class="media ic-viber">viber</a>
+                    <a href="#" class="media ic-vk">vk</a>
+                </div>
+            </div>
+            <div id="map"></div>
+       </div>
+
+       <div class="car-navigation-info">
+            <div class="pass-info-inner">
+                <h2 class="pass-info-headline">Как до нас добраться на машине</h2>
+                <p class="pass-info-desc">Для проезда на нашу территорию обязательно нужно выписать пропуск на свой автомобиль. Заявку на оформление можно оставить ниже:</p>
+
+                <div class="pass-form">
+                    <form>
+                        <div class="pass-form-row">
+                            <input class="pass-form-field bg" type="text" name="full-name" placeholder="ФИО*" required autofocus>
+                        </div>
+                        <div class="pass-form-row">
+                            <input class="pass-form-field md" type="text" name="car-model" placeholder="Марка машины">
+                            <input class="pass-form-field sm" type="text" name="state-number" placeholder="Гос.номер*" required>
+                        </div>
+                        <div class="pass-form-row">
+                            <input class="pass-form-field md" type="tel" name="phone" placeholder="+7 (___) ___-__-__*" required>
+                            <button class="pass-form-btn" type="submit">Отправить</button>
+                        </div> 
+                    </form>
+                </div>
+            </div>
+
+            <div class="driving-map">
+                <img src="images/roadmap.jpg" alt="roadmap">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <p class="disclaimer-text">Информация, представленная на сайте, не является публичной офертой. Поэтому не служит поводом для совершения купли-продажи (ч. 2 ст. 437 ГК РФ). Цена и условия продажи обсуждаются с менеджером в индивидуальном порядке.</p>
+                <p class="disclaimer-text">Сайт защищён сертификатом SSL и применена <a href="#">Политика конфиденциальности</a> и <a href="#">Условия обслуживания</a> Google.</p>
+            </div>
+            <div class="footer-bottom">
+                <a href="#" class="privacy-policy-link">Политика конфиденциальности</a>
+                <a href="#" class="privacy-policy-link">Защита передаваемых данных</a>
+                <span class="copyright-text">&copy; Мир-Ковролина. 2011-2021</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=54dfcef2-e464-4dcd-96c9-b03fb81f2419&lang=ru_RU"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>
